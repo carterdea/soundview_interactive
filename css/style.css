@@ -1,0 +1,84 @@
+body {
+  background: #303939 url(../images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font: 16px/1.5 'Source Sans Pro', sans-serif;
+}
+
+.masthead {
+  margin-left: 5%;
+  background: url(../images/soundview-interactive-logo.png) no-repeat top left;
+  background-size: 90%;
+  margin-top: 10vh;
+  max-width: 412px;
+  padding-bottom: 2%;
+}
+
+.masthead span {
+  visibility: hidden;
+}
+
+#main-content {
+  margin-left: 5%;
+  max-width: 700px;
+  width: 90%;
+}
+
+footer {
+  font-size: 12px;
+  bottom: 5%;
+  margin: 0 5%;
+  position: absolute;
+  width: 80%;
+}
+
+.contact,
+.copyright {
+  display: block;
+}
+
+
+@media (min-width: 700px) {
+  .masthead,
+  #main-content, 
+  footer {
+    margin-left: 10%
+  }
+
+  .masthead {
+    margin-top: 30vh;
+    padding-bottom: 1%;
+    width: 50%;
+  }
+
+  #main-content {
+    width: 80%
+  }
+
+  footer {
+    margin-right: 10%;
+  }
+
+  .contact {
+    float: right;
+  }
+
+  .copyright {
+    float: left;
+  }
+  
+}
+
+@media (min-width: 900px) {
+  .masthead {
+    /*margin-top: 30vh;*/
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .masthead {
+    width: 30%;
+  }
+}
+
